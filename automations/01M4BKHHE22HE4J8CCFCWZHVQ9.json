@@ -1,0 +1,69 @@
+{
+  "version": "2",
+  "flowTitle": "Email Weekly Activities CSV",
+  "trigger": {
+    "valid": true,
+    "displayName": "Send generated activities CSV",
+    "type": "MANUAL",
+    "settings": {
+      "inputUiInfo": {},
+      "paramsSchema": {
+        "type": "object",
+        "properties": {
+          "csvText": {
+            "type": "string",
+            "description": "Input for csvText"
+          },
+          "fileName": {
+            "type": "string",
+            "description": "Input for fileName"
+          },
+          "weekLabel": {
+            "type": "string",
+            "description": "Input for weekLabel"
+          },
+          "recipientEmail": {
+            "type": "string",
+            "description": "Input for recipientEmail"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "actions": [
+    {
+      "name": "69d87e30-db1a-4380-a2bf-9da2eebf694a",
+      "valid": true,
+      "displayName": "Save CSV file",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-media",
+        "pieceVersion": "1.0.0",
+        "actionName": "text.addToMedia",
+        "input": {
+          "text": "{{ trigger[\"csvText\"] }}",
+          "title": "{{ trigger[\"fileName\"] }}"
+        }
+      }
+    },
+    {
+      "name": "8e04d10b-5801-4ccc-8602-424e6b2c6814",
+      "valid": true,
+      "displayName": "Email CSV link",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "pieceVersion": "1.0.0",
+        "actionName": "notify.email",
+        "input": {
+          "body": "Weekly activities for {{ trigger[\"weekLabel\"] }} are ready.\n\n[Download {{ trigger[\"fileName\"] }}]({{ 69d87e30-db1a-4380-a2bf-9da2eebf694a[\"mediaUrl\"] }})\n\nTo save as an Excel workbook, open the downloaded CSV in Excel, select File > Save As, and choose Excel Workbook (.xlsx).\n\nThis is an Excel-compatible CSV, not a prebuilt .xlsx workbook.",
+          "format": "markdown",
+          "subject": "Weekly activities CSV - {{ trigger[\"weekLabel\"] }}",
+          "fromName": "Hermiston Activities",
+          "recipientEmail": "{{ trigger[\"recipientEmail\"] }}"
+        }
+      }
+    }
+  ]
+}

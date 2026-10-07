@@ -1,0 +1,1362 @@
+{
+  "root": {
+    "type": "root",
+    "children": [
+      {
+        "type": "text",
+        "id": "c17d239e-7f27-4f00-93af-f93ac948aa6c",
+        "text": {
+          "ops": [
+            {
+              "insert": "Activities Directory"
+            },
+            {
+              "insert": "\n",
+              "attributes": {
+                "paragraph": true
+              }
+            }
+          ]
+        },
+        "format": null,
+        "collapsed": false,
+        "completed": false,
+        "children": [
+          {
+            "type": "text",
+            "id": "4d0d5dc5-f8ee-4d1e-a3ef-4fe7a3838481",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Counseling",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@name1": "Counseling",
+              "@cat01": {
+                "type": "Select",
+                "optionId": "service"
+              },
+              "@tags1": "support, guidance, wellness, student services",
+              "@desc1": "Connect with your school counselors for academic planning, personal support, career exploration, and help finding the right next step.",
+              "@adv01": "School Counseling Office",
+              "@meet01": "By appointment during the school day",
+              "@icon01": "HeartHandshake",
+              "@group1": {
+                "type": "Select",
+                "optionId": "extracurriculars"
+              }
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "ec7be1a3-b43a-4580-8f47-9e764a6f96e7",
+            "text": {
+              "ops": [
+                {
+                  "insert": "FFA",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@name1": "FFA",
+              "@cat01": {
+                "type": "Select",
+                "optionId": "career-technical"
+              },
+              "@tags1": "agriculture, leadership, career",
+              "@desc1": "Build real-world agriculture, leadership, and career skills through hands-on projects.",
+              "@adv01": "Activities Office",
+              "@meet01": "Tuesdays after school",
+              "@icon01": "Sprout",
+              "@group1": {
+                "type": "Select",
+                "optionId": "extracurriculars"
+              }
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "e9758c10-0336-4bf9-ab54-64238044f315",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Band",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@name1": "Band",
+              "@cat01": {
+                "type": "Select",
+                "optionId": "fine-arts"
+              },
+              "@tags1": "music, performance, instruments",
+              "@desc1": "Make music together through rehearsals, performances, and school traditions.",
+              "@adv01": "Music Department",
+              "@meet01": "Class period and performances",
+              "@icon01": "Music2",
+              "@group1": {
+                "type": "Select",
+                "optionId": "extracurriculars"
+              }
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "146893ce-5d20-4900-85aa-99e3bccb49d7",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Choir",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@name1": "Choir",
+              "@cat01": {
+                "type": "Select",
+                "optionId": "fine-arts"
+              },
+              "@tags1": "music, singing, performance",
+              "@desc1": "Find your voice in a welcoming ensemble built around performance and connection.",
+              "@adv01": "Music Department",
+              "@meet01": "Class period and concerts",
+              "@icon01": "Mic2",
+              "@group1": {
+                "type": "Select",
+                "optionId": "extracurriculars"
+              }
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "3ed14af8-1cb7-48a9-993c-aa081e985d3a",
+            "text": {
+              "ops": [
+                {
+                  "insert": "National Honor Society",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@name1": "National Honor Society",
+              "@cat01": {
+                "type": "Select",
+                "optionId": "academic"
+              },
+              "@tags1": "scholarship, leadership, service",
+              "@desc1": "Lead with scholarship, character, service, and a commitment to making school better.",
+              "@adv01": "Activities Office",
+              "@meet01": "Monthly meetings",
+              "@icon01": "Award",
+              "@group1": {
+                "type": "Select",
+                "optionId": "extracurriculars"
+              }
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "e54ce2a2-2494-46aa-9af2-26d2372a9f87",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Student Council",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@name1": "ASB Student Leadership",
+              "@cat01": {
+                "type": "Select",
+                "optionId": "leadership"
+              },
+              "@tags1": "student voice, leadership, events",
+              "@desc1": "Shape student life by planning events, representing your peers, and leading with purpose.",
+              "@adv01": "Activities Office",
+              "@meet01": "Wednesdays after school",
+              "@icon01": "UsersRound",
+              "@group1": {
+                "type": "Select",
+                "optionId": "extracurriculars"
+              }
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "eb5da292-d14b-4a6e-ad1f-9eae6e6a752c",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Theatre",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@name1": "Theatre",
+              "@cat01": {
+                "type": "Select",
+                "optionId": "fine-arts"
+              },
+              "@tags1": "acting, design, production",
+              "@desc1": "Create bold stories onstage through acting, design, tech, and collaboration.",
+              "@adv01": "Fine Arts Department",
+              "@meet01": "Seasonal rehearsals",
+              "@icon01": "Drama",
+              "@group1": {
+                "type": "Select",
+                "optionId": "extracurriculars"
+              }
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "2cf8ab2d-106d-4bbf-baac-7df8a2b89232",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Play Production",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@name1": "Play Production",
+              "@cat01": {
+                "type": "Select",
+                "optionId": "fine-arts"
+              },
+              "@tags1": "acting, stagecraft, performance",
+              "@desc1": "Take a production from first read-through to opening night as part of the full company.",
+              "@adv01": "Fine Arts Department",
+              "@meet01": "Fall and spring seasons",
+              "@icon01": "Clapperboard",
+              "@group1": {
+                "type": "Select",
+                "optionId": "extracurriculars"
+              }
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "0b3d1fa5-c43e-45a5-aac4-91d8cd261a40",
+            "text": {
+              "ops": []
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@name1": "All-Sports",
+              "@desc1": "An All-Sports Calendar",
+              "@adv01": "Various",
+              "@meet01": "",
+              "@asurl": "https://www2.arbitersports.com/ICal/School/schedule.ics?id=3G6Yw8ysafp2XrckKZ6JSg%3d%3d"
+            },
+            "children": []
+          }
+        ]
+      }
+    ],
+    "views": {
+      "list": {
+        "id": "list",
+        "type": "list",
+        "rank": "A",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@name1": {
+            "id": "/attributes/@name1",
+            "fieldPath": "/attributes/@name1",
+            "rank": "z"
+          },
+          "/attributes/@cat01": {
+            "id": "/attributes/@cat01",
+            "fieldPath": "/attributes/@cat01",
+            "rank": "zV"
+          },
+          "/attributes/@tags1": {
+            "id": "/attributes/@tags1",
+            "fieldPath": "/attributes/@tags1",
+            "rank": "zk"
+          },
+          "/attributes/@desc1": {
+            "id": "/attributes/@desc1",
+            "fieldPath": "/attributes/@desc1",
+            "rank": "zs"
+          },
+          "/attributes/@adv01": {
+            "id": "/attributes/@adv01",
+            "fieldPath": "/attributes/@adv01",
+            "rank": "zw"
+          },
+          "/attributes/@meet01": {
+            "id": "/attributes/@meet01",
+            "fieldPath": "/attributes/@meet01",
+            "rank": "zy"
+          },
+          "/attributes/@icon01": {
+            "id": "/attributes/@icon01",
+            "fieldPath": "/attributes/@icon01",
+            "rank": "zz"
+          },
+          "/attributes/@group1": {
+            "id": "/attributes/@group1",
+            "fieldPath": "/attributes/@group1",
+            "rank": "zzV"
+          },
+          "55f8d885-b860-452a-9637-ab64f8b2e513": {
+            "id": "55f8d885-b860-452a-9637-ab64f8b2e513",
+            "fieldPath": "/attributes/@asurl",
+            "rank": "zzk"
+          }
+        }
+      },
+      "board": {
+        "id": "board",
+        "type": "board",
+        "rank": "B",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@name1": {
+            "id": "/attributes/@name1",
+            "fieldPath": "/attributes/@name1",
+            "rank": "z"
+          },
+          "/attributes/@cat01": {
+            "id": "/attributes/@cat01",
+            "fieldPath": "/attributes/@cat01",
+            "rank": "zV"
+          },
+          "/attributes/@tags1": {
+            "id": "/attributes/@tags1",
+            "fieldPath": "/attributes/@tags1",
+            "rank": "zk"
+          },
+          "/attributes/@desc1": {
+            "id": "/attributes/@desc1",
+            "fieldPath": "/attributes/@desc1",
+            "rank": "zs"
+          },
+          "/attributes/@adv01": {
+            "id": "/attributes/@adv01",
+            "fieldPath": "/attributes/@adv01",
+            "rank": "zw"
+          },
+          "/attributes/@meet01": {
+            "id": "/attributes/@meet01",
+            "fieldPath": "/attributes/@meet01",
+            "rank": "zy"
+          },
+          "/attributes/@icon01": {
+            "id": "/attributes/@icon01",
+            "fieldPath": "/attributes/@icon01",
+            "rank": "zz"
+          },
+          "/attributes/@group1": {
+            "id": "/attributes/@group1",
+            "fieldPath": "/attributes/@group1",
+            "rank": "zzV"
+          },
+          "2f679f70-c563-450c-9fa8-41d168a3d350": {
+            "id": "2f679f70-c563-450c-9fa8-41d168a3d350",
+            "fieldPath": "/attributes/@asurl",
+            "rank": "zzk"
+          }
+        }
+      },
+      "mindmap": {
+        "id": "mindmap",
+        "type": "mindmap",
+        "rank": "D",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@name1": {
+            "id": "/attributes/@name1",
+            "fieldPath": "/attributes/@name1",
+            "rank": "z"
+          },
+          "/attributes/@cat01": {
+            "id": "/attributes/@cat01",
+            "fieldPath": "/attributes/@cat01",
+            "rank": "zV"
+          },
+          "/attributes/@tags1": {
+            "id": "/attributes/@tags1",
+            "fieldPath": "/attributes/@tags1",
+            "rank": "zk"
+          },
+          "/attributes/@desc1": {
+            "id": "/attributes/@desc1",
+            "fieldPath": "/attributes/@desc1",
+            "rank": "zs"
+          },
+          "/attributes/@adv01": {
+            "id": "/attributes/@adv01",
+            "fieldPath": "/attributes/@adv01",
+            "rank": "zw"
+          },
+          "/attributes/@meet01": {
+            "id": "/attributes/@meet01",
+            "fieldPath": "/attributes/@meet01",
+            "rank": "zy"
+          },
+          "/attributes/@icon01": {
+            "id": "/attributes/@icon01",
+            "fieldPath": "/attributes/@icon01",
+            "rank": "zz"
+          },
+          "/attributes/@group1": {
+            "id": "/attributes/@group1",
+            "fieldPath": "/attributes/@group1",
+            "rank": "zzV"
+          },
+          "c1496eb0-928d-434c-abba-2eb5bf8b6ae2": {
+            "id": "c1496eb0-928d-434c-abba-2eb5bf8b6ae2",
+            "fieldPath": "/attributes/@asurl",
+            "rank": "zzk"
+          }
+        }
+      },
+      "orgchart": {
+        "id": "orgchart",
+        "type": "orgchart",
+        "rank": "E",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@name1": {
+            "id": "/attributes/@name1",
+            "fieldPath": "/attributes/@name1",
+            "rank": "z"
+          },
+          "/attributes/@cat01": {
+            "id": "/attributes/@cat01",
+            "fieldPath": "/attributes/@cat01",
+            "rank": "zV"
+          },
+          "/attributes/@tags1": {
+            "id": "/attributes/@tags1",
+            "fieldPath": "/attributes/@tags1",
+            "rank": "zk"
+          },
+          "/attributes/@desc1": {
+            "id": "/attributes/@desc1",
+            "fieldPath": "/attributes/@desc1",
+            "rank": "zs"
+          },
+          "/attributes/@adv01": {
+            "id": "/attributes/@adv01",
+            "fieldPath": "/attributes/@adv01",
+            "rank": "zw"
+          },
+          "/attributes/@meet01": {
+            "id": "/attributes/@meet01",
+            "fieldPath": "/attributes/@meet01",
+            "rank": "zy"
+          },
+          "/attributes/@icon01": {
+            "id": "/attributes/@icon01",
+            "fieldPath": "/attributes/@icon01",
+            "rank": "zz"
+          },
+          "/attributes/@group1": {
+            "id": "/attributes/@group1",
+            "fieldPath": "/attributes/@group1",
+            "rank": "zzV"
+          },
+          "b230e9cb-0cfd-490e-97dd-d3b5f1ec3c32": {
+            "id": "b230e9cb-0cfd-490e-97dd-d3b5f1ec3c32",
+            "fieldPath": "/attributes/@asurl",
+            "rank": "zzk"
+          }
+        }
+      },
+      "gantt": {
+        "id": "gantt",
+        "type": "gantt",
+        "rank": "F",
+        "columns": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7",
+            "width": 480
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A",
+            "hidden": true
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F",
+            "hidden": true
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N",
+            "hidden": true
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V",
+            "hidden": true
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c",
+            "hidden": true
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k",
+            "hidden": true
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s",
+            "hidden": true
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t",
+            "hidden": true
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u",
+            "hidden": true
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF",
+            "hidden": true
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF",
+            "hidden": true
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x",
+            "hidden": true
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y",
+            "hidden": true
+          },
+          "/attributes/@name1": {
+            "id": "/attributes/@name1",
+            "fieldPath": "/attributes/@name1",
+            "rank": "z",
+            "hidden": false
+          },
+          "/attributes/@cat01": {
+            "id": "/attributes/@cat01",
+            "fieldPath": "/attributes/@cat01",
+            "rank": "zV",
+            "hidden": false
+          },
+          "/attributes/@tags1": {
+            "id": "/attributes/@tags1",
+            "fieldPath": "/attributes/@tags1",
+            "rank": "zk",
+            "hidden": false
+          },
+          "/attributes/@desc1": {
+            "id": "/attributes/@desc1",
+            "fieldPath": "/attributes/@desc1",
+            "rank": "zs",
+            "hidden": false
+          },
+          "/attributes/@adv01": {
+            "id": "/attributes/@adv01",
+            "fieldPath": "/attributes/@adv01",
+            "rank": "zw",
+            "hidden": false
+          },
+          "/attributes/@meet01": {
+            "id": "/attributes/@meet01",
+            "fieldPath": "/attributes/@meet01",
+            "rank": "zy",
+            "hidden": false
+          },
+          "/attributes/@icon01": {
+            "id": "/attributes/@icon01",
+            "fieldPath": "/attributes/@icon01",
+            "rank": "zz",
+            "hidden": false
+          },
+          "/attributes/@group1": {
+            "id": "/attributes/@group1",
+            "fieldPath": "/attributes/@group1",
+            "rank": "zzV",
+            "hidden": false
+          },
+          "cab41f45-7357-415e-9137-f012803809a5": {
+            "id": "cab41f45-7357-415e-9137-f012803809a5",
+            "fieldPath": "/attributes/@asurl",
+            "rank": "zzk"
+          }
+        }
+      },
+      "table": {
+        "id": "table",
+        "type": "table",
+        "rank": "V",
+        "columns": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7",
+            "width": 480
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A",
+            "hidden": true
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F",
+            "hidden": true
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N",
+            "hidden": true
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V",
+            "hidden": true
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c",
+            "hidden": true
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k",
+            "hidden": true
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s",
+            "hidden": true
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t",
+            "hidden": true
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u",
+            "hidden": true
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF",
+            "hidden": true
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF",
+            "hidden": true
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x",
+            "hidden": true
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y",
+            "hidden": true
+          },
+          "/attributes/@name1": {
+            "id": "/attributes/@name1",
+            "fieldPath": "/attributes/@name1",
+            "rank": "z",
+            "hidden": false
+          },
+          "/attributes/@cat01": {
+            "id": "/attributes/@cat01",
+            "fieldPath": "/attributes/@cat01",
+            "rank": "zV",
+            "hidden": false
+          },
+          "/attributes/@tags1": {
+            "id": "/attributes/@tags1",
+            "fieldPath": "/attributes/@tags1",
+            "rank": "zk",
+            "hidden": false
+          },
+          "/attributes/@desc1": {
+            "id": "/attributes/@desc1",
+            "fieldPath": "/attributes/@desc1",
+            "rank": "zs",
+            "hidden": false
+          },
+          "/attributes/@adv01": {
+            "id": "/attributes/@adv01",
+            "fieldPath": "/attributes/@adv01",
+            "rank": "zw",
+            "hidden": false
+          },
+          "/attributes/@meet01": {
+            "id": "/attributes/@meet01",
+            "fieldPath": "/attributes/@meet01",
+            "rank": "zy",
+            "hidden": false
+          },
+          "/attributes/@icon01": {
+            "id": "/attributes/@icon01",
+            "fieldPath": "/attributes/@icon01",
+            "rank": "zz",
+            "hidden": false
+          },
+          "/attributes/@group1": {
+            "id": "/attributes/@group1",
+            "fieldPath": "/attributes/@group1",
+            "rank": "zzV",
+            "hidden": false
+          },
+          "9830f60a-3791-40bf-ab29-6cc0b9685569": {
+            "id": "9830f60a-3791-40bf-ab29-6cc0b9685569",
+            "fieldPath": "/attributes/@asurl",
+            "rank": "zzk"
+          }
+        }
+      },
+      "actionsheet": {
+        "id": "actionsheet",
+        "type": "actionsheet",
+        "rank": "F",
+        "columns": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7",
+            "width": 480
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A",
+            "hidden": true
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V",
+            "hidden": true
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c",
+            "hidden": true
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k",
+            "hidden": true
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s",
+            "hidden": true
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t",
+            "hidden": true
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u",
+            "hidden": true
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF",
+            "hidden": true
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF",
+            "hidden": true
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x",
+            "hidden": true
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y",
+            "hidden": true
+          },
+          "5a2385f8-b87c-45c8-97ef-e36ec01e02d1": {
+            "id": "5a2385f8-b87c-45c8-97ef-e36ec01e02d1",
+            "fieldPath": "/attributes/@asurl",
+            "rank": "z"
+          }
+        }
+      }
+    },
+    "fields": {
+      "@desc1": {
+        "type": "string",
+        "displayName": "Description"
+      },
+      "@name1": {
+        "type": "string",
+        "displayName": "Name"
+      },
+      "@meet01": {
+        "type": "string",
+        "displayName": "Meeting Period"
+      },
+      "@group1": {
+        "type": "Select",
+        "displayName": "Section",
+        "options": {
+          "girls": {
+            "id": "girls",
+            "name": "Girls Athletics",
+            "color": "#7c3aed",
+            "rank": "0"
+          },
+          "boys": {
+            "id": "boys",
+            "name": "Boys Athletics",
+            "color": "#1d4ed8",
+            "rank": "1"
+          },
+          "coed": {
+            "id": "coed",
+            "name": "Coed Athletics",
+            "color": "#0f766e",
+            "rank": "2"
+          },
+          "extracurriculars": {
+            "id": "extracurriculars",
+            "name": "Extracurriculars",
+            "color": "#c2410c",
+            "rank": "3"
+          }
+        }
+      },
+      "@adv01": {
+        "type": "string",
+        "displayName": "Advisor"
+      },
+      "@cat01": {
+        "type": "Select",
+        "displayName": "Category",
+        "options": {
+          "athletics": {
+            "id": "athletics",
+            "name": "Athletics",
+            "color": "#6d28d9",
+            "rank": "0"
+          },
+          "clubs": {
+            "id": "clubs",
+            "name": "Clubs",
+            "color": "#0f766e",
+            "rank": "1"
+          },
+          "fine-arts": {
+            "id": "fine-arts",
+            "name": "Fine Arts",
+            "color": "#c2410c",
+            "rank": "2"
+          },
+          "academic": {
+            "id": "academic",
+            "name": "Academic",
+            "color": "#2563eb",
+            "rank": "3"
+          },
+          "career-technical": {
+            "id": "career-technical",
+            "name": "Career & Technical",
+            "color": "#b45309",
+            "rank": "4"
+          },
+          "leadership": {
+            "id": "leadership",
+            "name": "Leadership",
+            "color": "#be185d",
+            "rank": "5"
+          },
+          "service": {
+            "id": "service",
+            "name": "Service",
+            "color": "#15803d",
+            "rank": "6"
+          }
+        }
+      },
+      "@tags1": {
+        "type": "string",
+        "displayName": "Keywords"
+      },
+      "@icon01": {
+        "type": "string",
+        "displayName": "Icon"
+      },
+      "@asurl": {
+        "type": "string",
+        "displayName": "Calendar URL"
+      }
+    }
+  },
+  "preferences": {
+    "defaultView": "table",
+    "avatar": {
+      "type": "emoji",
+      "value": "📐"
+    }
+  }
+}

@@ -1,0 +1,2 @@
+Scheduled Date,Start Time,End Time,Activity Name,Event Title,Location,Notes,Activity ID
+2026-10-14,7:00 PM,9:23 PM,Band,BAND TEST 2,HHS,THIS IS A GOOD PLACE TO ADD DETIALS....Maybe even daily announcment like details?,e9758c10-0336-4bf9-ab54-64238044f315

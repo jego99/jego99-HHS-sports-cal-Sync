@@ -1,0 +1,113 @@
+{
+  "version": "2",
+  "flowTitle": "Weekly Activities Hub Pulse",
+  "trigger": {
+    "valid": true,
+    "displayName": "Every Friday at 3:00 PM",
+    "type": "PIECE_TRIGGER",
+    "settings": {
+      "pieceName": "@taskade/automade-internalpiece-schedule",
+      "pieceVersion": "1.0.0",
+      "triggerName": "schedule.weekly",
+      "input": {
+        "timezone": "America/Los_Angeles",
+        "dayOfWeek": [
+          "Sunday"
+        ],
+        "timeOfDay": "9:00 AM"
+      }
+    }
+  },
+  "actions": [
+    {
+      "name": "c2f94d61-a7bf-4f7f-8b7d-4e7a4f4a8f22",
+      "valid": true,
+      "displayName": "Read master calendar",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "pieceVersion": "1.0.0",
+        "actionName": "project.export",
+        "input": {
+          "format": "text",
+          "projectId": "iG1Cr94QBuatx9yK"
+        }
+      }
+    },
+    {
+      "name": "90cb7254-6337-4df3-b487-b6614008a30d",
+      "valid": false,
+      "displayName": "Draft weekly activities pulse",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-openai",
+        "pieceVersion": "1.0.0",
+        "actionName": "agent.ask",
+        "input": {
+          "input": "Create the upcoming week's Activities Hub list from the master calendar export below. Use the week beginning on the next Monday after the Sunday run, include only dated events in that week, group items by date, and include activity name, event title, time, location, and notes when present. If the calendar has no dated events for that week, say that clearly and do not invent events. Return only a concise plain-text list suitable for the weekly activities page. Master calendar export: {{ c2f94d61-a7bf-4f7f-8b7d-4e7a4f4a8f22[\"content\"] }}",
+          "agentId": {
+            "type": "flow-template-variable-input-type",
+            "id": "01M3DED0CN4FZCHGC8CBEXP1J3"
+          },
+          "outputType": "plaintext"
+        }
+      }
+    },
+    {
+      "name": "380901cd-ee40-4624-9225-4e8dab4b0a6e",
+      "valid": false,
+      "displayName": "Save pulse to Activities Updates",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "pieceVersion": "1.0.0",
+        "actionName": "task.create",
+        "input": {
+          "fields": {
+            "@updbod": {
+              "data": {
+                "value": "{{ 90cb7254-6337-4df3-b487-b6614008a30d[\"result\"] }}"
+              },
+              "rank": "0",
+              "fieldId": "@updbod"
+            },
+            "@updtit": {
+              "data": {
+                "value": "Weekly Activities Hub Pulse"
+              },
+              "rank": "1",
+              "fieldId": "@updtit"
+            },
+            "@updwek": {
+              "data": {
+                "value": "{{ trigger[\"triggerTime\"] }}"
+              },
+              "rank": "2",
+              "fieldId": "@updwek"
+            }
+          },
+          "content": "{{ 90cb7254-6337-4df3-b487-b6614008a30d[\"result\"] }}",
+          "position": "beforeend",
+          "projectId": {
+            "type": "flow-template-variable-input-type",
+            "id": "Yx8iqKvUPFu6Zg5b"
+          }
+        }
+      }
+    }
+  ],
+  "variables": {
+    "01M3DED0CN4FZCHGC8CBEXP1J3": {
+      "id": "01M3DED0CN4FZCHGC8CBEXP1J3",
+      "rank": "V",
+      "type": "string",
+      "format": "taskade-space-agent-id"
+    },
+    "Yx8iqKvUPFu6Zg5b": {
+      "id": "Yx8iqKvUPFu6Zg5b",
+      "rank": "k",
+      "type": "string",
+      "format": "taskade-project-id"
+    }
+  }
+}

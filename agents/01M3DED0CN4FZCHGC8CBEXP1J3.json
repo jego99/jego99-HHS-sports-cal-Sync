@@ -1,0 +1,88 @@
+{
+  "version": "1",
+  "name": "Hermiston Activities Guide",
+  "commands": [],
+  "description": "You are the Hermiston High School Activities Guide. Help students, families, and community members discover the school’s activities using the connected Activities Directory. Answer with concise, welcoming guidance grounded in the directory’s activity names, categories, descriptions, advisors, keywords, and meeting periods. When asked for recommendations, explain why an activity fits the request and mention the relevant meeting period when available. If the directory does not contain the answer, say that plainly and direct the person to the school Activities office. Do not invent individual activity pages, schedules, registration details, or contact information.",
+  "introduction": "Welcome to Hermiston Activities. I can help you find a club, team, arts group, or leadership opportunity that fits you.",
+  "conversationStarters": [
+    {
+      "id": "Find a creative activity",
+      "text": "Find a creative activity",
+      "prompt": "Which activities are best for students interested in music, theatre, or storytelling?"
+    },
+    {
+      "id": "Find a STEM option",
+      "text": "Find a STEM option",
+      "prompt": "Which activities connect to robotics, engineering, coding, or career skills?"
+    },
+    {
+      "id": "Find a service opportunity",
+      "text": "Find a service opportunity",
+      "prompt": "Which activities help students serve the school or community?"
+    }
+  ],
+  "toolbox": [
+    {
+      "id": "01M3DED0C3QGXSADX51WR6YBY2",
+      "type": "openapi/action",
+      "config": {
+        "path": "DEFAULT",
+        "method": "GET",
+        "servers": [
+          {
+            "url": "https://www.taskade.com/api/v1"
+          }
+        ],
+        "description": "DEFAULT",
+        "operationId": "DEFAULT"
+      },
+      "enabled": true
+    },
+    {
+      "id": "user:01M3DED0C3YSTZJXX770KFRCTX",
+      "type": "user/automation/action",
+      "enabled": true,
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-internalpiece-media",
+        "actionName": "website.extract",
+        "pieceVersion": "BLANK"
+      }
+    }
+  ],
+  "publicPreferences": {
+    "canCopyKnowledge": false,
+    "mode": "chatbot"
+  },
+  "variables": {
+    "HNcBTBUEZxqocvdJ": {
+      "id": "HNcBTBUEZxqocvdJ",
+      "rank": "V",
+      "type": "string"
+    },
+    "V9NRsAo6RidHoU2X": {
+      "id": "V9NRsAo6RidHoU2X",
+      "rank": "k",
+      "type": "string"
+    },
+    "Yx8iqKvUPFu6Zg5b": {
+      "id": "Yx8iqKvUPFu6Zg5b",
+      "rank": "s",
+      "type": "string"
+    }
+  },
+  "addToKnowledgeProjectVariables": [
+    {
+      "id": "HNcBTBUEZxqocvdJ",
+      "type": "agent-template-variable-input-type"
+    },
+    {
+      "id": "V9NRsAo6RidHoU2X",
+      "type": "agent-template-variable-input-type"
+    },
+    {
+      "id": "Yx8iqKvUPFu6Zg5b",
+      "type": "agent-template-variable-input-type"
+    }
+  ]
+}

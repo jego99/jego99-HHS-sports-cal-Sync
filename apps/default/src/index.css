@@ -1,0 +1,165 @@
+/* Hermiston Bulldog: white, black, purple, silver, and gold with transparent purple card depth. */
+/* Tailwind CSS v3 */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: light;
+    --background: 0 0% 98%;
+    --foreground: 0 0% 8%;
+    --muted: 240 8% 93%;
+    --muted-foreground: 240 5% 38%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 8%;
+    --border: 240 7% 82%;
+    --input: 240 7% 80%;
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 8%;
+    --primary: 270 62% 38%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 240 8% 92%;
+    --secondary-foreground: 0 0% 10%;
+    --accent: 270 42% 94%;
+    --accent-foreground: 270 62% 30%;
+    --destructive: 0 72% 45%;
+    --destructive-foreground: 0 0% 100%;
+    --ring: 43 86% 45%;
+    --radius: 0.5rem;
+    --chart-1: 270 62% 38%;
+    --chart-2: 43 86% 45%;
+    --chart-3: 240 5% 48%;
+    --chart-4: 0 0% 8%;
+    --chart-5: 270 42% 62%;
+  }
+
+  .dark {
+    color-scheme: dark;
+    --background: 0 0% 7%;
+    --foreground: 0 0% 96%;
+    --muted: 240 7% 15%;
+    --muted-foreground: 240 5% 68%;
+    --popover: 0 0% 9%;
+    --popover-foreground: 0 0% 96%;
+    --border: 240 6% 23%;
+    --input: 240 6% 24%;
+    --card: 0 0% 10%;
+    --card-foreground: 0 0% 96%;
+    --primary: 270 78% 70%;
+    --primary-foreground: 0 0% 5%;
+    --secondary: 240 7% 17%;
+    --secondary-foreground: 0 0% 95%;
+    --accent: 270 35% 18%;
+    --accent-foreground: 270 82% 82%;
+    --destructive: 0 62% 42%;
+    --destructive-foreground: 0 0% 100%;
+    --ring: 43 88% 58%;
+    --chart-1: 270 78% 70%;
+    --chart-2: 43 88% 58%;
+    --chart-3: 240 5% 68%;
+    --chart-4: 0 0% 96%;
+    --chart-5: 270 42% 72%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+  }
+}
+
+:root {
+  --sidebar: hsl(0 0% 97%);
+  --sidebar-foreground: hsl(0 0% 12%);
+  --sidebar-primary: hsl(270 62% 38%);
+  --sidebar-primary-foreground: hsl(0 0% 100%);
+  --sidebar-accent: hsl(270 42% 94%);
+  --sidebar-accent-foreground: hsl(270 62% 30%);
+  --sidebar-border: hsl(240 7% 82%);
+  --sidebar-ring: hsl(43 86% 45%);
+}
+
+.dark {
+  --sidebar: hsl(0 0% 9%);
+  --sidebar-foreground: hsl(0 0% 88%);
+  --sidebar-primary: hsl(43 88% 58%);
+  --sidebar-primary-foreground: hsl(0 0% 7%);
+  --sidebar-accent: hsl(270 35% 18%);
+  --sidebar-accent-foreground: hsl(270 82% 82%);
+  --sidebar-border: hsl(240 6% 23%);
+  --sidebar-ring: hsl(43 88% 58%);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@layer components {
+  .site-card {
+    @apply rounded-2xl border shadow-sm transition duration-200;
+  }
+  .site-card-purple {
+    background: hsl(var(--primary) / 0.12);
+    border-color: hsl(var(--primary) / 0.35);
+  }
+  .site-card-purple:hover {
+    background: hsl(var(--primary) / 0.18);
+    border-color: hsl(var(--primary) / 0.58);
+  }
+  .site-card-gold {
+    background: hsl(43 86% 50% / 0.12);
+    border-color: hsl(43 86% 50% / 0.42);
+  }
+  .site-card-silver {
+    background: hsl(240 5% 60% / 0.13);
+    border-color: hsl(240 5% 60% / 0.42);
+  }
+  .site-card-white {
+    background: hsl(0 0% 100% / 0.86);
+    border-color: hsl(240 7% 82% / 0.9);
+  }
+  .dark .site-card-white {
+    background: hsl(0 0% 100% / 0.08);
+    border-color: hsl(0 0% 100% / 0.22);
+  }
+}
+
+.genesis__spinner-container {
+  position: fixed;
+  inset: 0;
+  background: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.genesis__spinner-ring {
+  width: 20px;
+  height: 20px;
+  border: 1.5px solid transparent;
+  border-top: 1.5px solid rgba(255, 255, 255, 0.6);
+  border-radius: 50%;
+  animation: genesis__spin 1s linear infinite;
+}
+
+@keyframes genesis__spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .genesis__spinner-ring {
+    animation: none;
+    border-top-color: rgba(255, 255, 255, 0.9);
+  }
+}
